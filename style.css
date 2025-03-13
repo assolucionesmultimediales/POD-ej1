@@ -3,6 +3,19 @@ html, body {
   padding: 0;
 }
 
+body{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: rgb(232,107,252);
+  background: radial-gradient(circle, rgba(232,107,252,1) 0%, rgba(32,139,168,1) 100%);
+}
+
+
 canvas {
+  border: 5px solid white;
+  border-radius: 15px;
   display: block;
 }
